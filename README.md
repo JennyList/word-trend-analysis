@@ -50,7 +50,7 @@ The client requires a web server to run. You can of course set one up, but for t
 
 The client will require some configuration. Towards the top of ./client/index.php is a group of configuration variables. Most of them will not need changing with the default directory structure.
 
-You will need to change $startweekdate to reflect the start of yopur corpus, this is the week the client will display at start.
+You will need to change $startweekdate to reflect the start of your corpus, this is the week the client will display at start.
 
 $noisewords is an array of noise words that reflects my use of the system for British politics. You may need to make a few edits.
 
