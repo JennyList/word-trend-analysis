@@ -1,0 +1,52 @@
+text {
+  font: 10px sans-serif;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.narrow-input{
+    max-width: 50px;
+}
+
+h1, .h1 {
+    font-size: 25px;
+}
+
+.container-fluid{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1000px;
+}
+
+.toprule{
+    border-top:1px solid rgb(221, 221, 221);
+    margin-top:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+/* SVG graph styles */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.grid path,
+.grid line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.25);
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2.5px;
+}
