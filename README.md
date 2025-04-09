@@ -65,5 +65,4 @@ It is copyright (c) 2004-2023, Ryan Parman and Sam Sneddon, and it is licenced u
 It is copyright (c) 2011-2025 The Bootstrap Authors, and it is licenced under the MIT licence.
 
 [D3](https://d3js.org/) is a data visualisation library.
-You can find it at https://d3js.org/
 It is copyright (c) 2010-2023 Mike Bostock, and it is licenced under the ISC licence.
