@@ -1,0 +1,14 @@
+#RSS feed list
+#Simply list feed URLs here
+# A # at the start of the line indicates a comment that will be ignored.
+#
+# All entries are fed through PHP's filter_var($url, FILTER_VALIDATE_URL) function
+# to check whether they are a URL or not before trying to retrieve them.
+#
+#
+# Example feed URLs. Replace these with your own feed list
+#
+# Hackaday
+https://hackaday.com/blog/feed/
+# Slashdot
+https://rss.slashdot.org/Slashdot/slashdotMain
