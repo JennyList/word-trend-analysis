@@ -22,7 +22,7 @@ The [client](./client/) directory contains a web client for analysing the data.
 
 ### data
 
-The data directory contains the processed corpus data. This project does not ship with a corpus, you will have to collect your own.
+The data directory contains the processed corpus data. This project does not ship with a corpus, you will have to collect your own. *Warning*, a corpus is composed of a huge tree of small JSON files, and can quickly become unwieldy. It's suggested that this directory not be put on your system disk. The production version of this mounted a dedicated HDD for the corpus at this path.
 
 ## Getting started
 
