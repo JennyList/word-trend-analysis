@@ -38,7 +38,7 @@ You will need to configure and run the ./processing/processing.sh script to crea
 
 There are a set of variable definitions for paths at the top of ./processing/processing.php. With the default directory structure they should work without modification, however it is suggested you cast your eye over them.
 
-You will need to create your own feed list in ./processing/feedlist/feedlist.txt. The distributed version contains a couple of example feeds as well as instructions.
+You will need to create your own feed list in ./processing/feedlist/feedlist.txt. The distributed version contains a couple of example feeds as well as instructions. I have [a set of lists of feeds](https://github.com/JennyList/rss-feed-lists/tree/main) if you need somewhere to start.
 
 With everything configured, you should be able to open a terminal in ./processing, and run processing.sh
 
