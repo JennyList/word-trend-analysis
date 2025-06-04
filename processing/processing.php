@@ -122,7 +122,7 @@ foreach($feeds as $feedURL){
 			
 			if(!file_exists($path_to_archive . fix_file_name($guid).".json")){ // Have we already done this one
 			
-				file_put_contents($path_to_archive . fix_file_name($guid).".json",array($guid,$permlink,$description,$pubdate,$content)); //write it to the archive
+				file_put_contents($path_to_archive . fix_file_name($guid).".json",json_encode(array($guid,$permlink,$description,$pubdate,$content))); //write it to the archive
 		    
 				$i=extend_time($i);
 
