@@ -10,6 +10,8 @@ Here you'll find any scripts I write to extract or manipulate a corpus made with
 
 **example:** php ./stories-for-keywords.php foo,bar,baz
 
+A useful thing to know is that the system stores 2-grams in directory names with spaces replaced with an underscore. So if you want to search for "Free software", use "free_software". It doesn't store phrases with more than 2 words.
+
 **returns:** the contents of a CSV file to stdout, with 2 columns: URL, and text.
 
 You can pipe this with the > character to a file if you wish.
