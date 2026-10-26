@@ -28,7 +28,7 @@ The data directory contains the processed corpus data. This project does not shi
 
 ### tools
 
-This directory contains any scripts or other tools I create for queying or manipulating a corpus.
+The [tools](./tools/) directory contains any scripts or other tools I create for queying or manipulating a corpus.
 
 **stories-for-keywords.php** is a command line script that takes a list of keywords as an arcument and returns a CSV file list of stories containing 3 or more of them to stdout.
 
