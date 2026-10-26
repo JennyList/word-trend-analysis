@@ -40,9 +40,7 @@ foreach ($words as $key => $word){
 }
 
 foreach ($words as $key => $word){ //Step throught he supplied list of keywords
-        echo $word . "\n";
 	$wordpath = $path_to_corpus . '/' . $word;  //find the corpus director for the keyword
-        echo $wordpath . "\n";
 	$d = dir($wordpath);
 	if(trim($word)!=''){
 		while (false !== ($entry = $d->read())) { //step through all the corpus files for this keyword
