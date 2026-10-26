@@ -1,5 +1,7 @@
 # A Word Trend Analysis Tool For News Content
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B41FD5UE)
+
 This software gathers a corpus of news content from RSS feeds over time, and processes them such that a web client can be used to analyse trends.
 
 An example can be seen in the graph below, showing the fortunes of the candidates in the [2015 British Labour leadership race](https://en.wikipedia.org/wiki/2015_Labour_Party_leadership_election_(UK)).
@@ -10,7 +12,7 @@ This project was started in about 2007 and went through a series of iterations. 
 
 ## Components
 
-The three parts of this project are split into directories at the top level.
+The three main parts of this project are split into directories at the top level, and are joined by a tools directory for any supplementary scripts.
 
 ### processing
 
@@ -23,6 +25,12 @@ The [client](./client/) directory contains a web client for analysing the data.
 ### data
 
 The data directory contains the processed corpus data. This project does not ship with a corpus, you will have to collect your own. *Warning*, a corpus is composed of a huge tree of small JSON files, and can quickly become unwieldy. It's suggested that this directory not be put on your system disk. The production version of this mounted a dedicated HDD for the corpus at this path.
+
+### tools
+
+This directory contains any scripts or other tools I create for queying or manipulating a corpus.
+
+**stories-for-keywords.php** is a command line script that takes a list of keywords as an arcument and returns a CSV file list of stories containing 3 or more of them to stdout.
 
 ## Getting started
 
@@ -66,5 +74,3 @@ It is copyright (c) 2011-2025 The Bootstrap Authors, and it is licenced under th
 
 [D3](https://d3js.org/) is a data visualisation library.
 It is copyright (c) 2010-2023 Mike Bostock, and it is licenced under the ISC licence.
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B41FD5UE)
