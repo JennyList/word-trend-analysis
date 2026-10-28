@@ -21,3 +21,23 @@ You can pipe this with the > character to a file if you wish.
 You'll need to edit line 30 as follows to point the script at your corpus directory
 
 $path_to_corpus = '/full/path/to/corpus'; // directory where the processed corpus lives
+
+## Extract collocates for a keyword
+
+**collocates-for-keyword.php** is a command line script that takes a keyword as an arcument and returns a CSV file list of collocates and frequency expressed as a percentage to stdout.
+
+**usage:**  php ./collocates-for-keyword.php [keyword] (optional)[count=500]
+
+**example:** php ./collocates-for-keyword.php foo 100
+
+**keyword** is the word searched for
+**count** is optional, defaults to 500 and is the  number of results you want.
+
+**returns:** the contents of a CSV file to stdout, with 2 columns: collocate, and % frequency.
+You can pipe this with the > character to a file if you wish.
+
+**Configuration:**
+
+You'll need to edit line 39 as follows to point the script at your corpus directory
+
+$path_to_corpus = '/full/path/to/corpus'; // directory where the processed corpus lives
