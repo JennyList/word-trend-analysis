@@ -32,6 +32,8 @@ The [tools](./tools/) directory contains any scripts or other tools I create for
 
 **stories-for-keywords.php** is a command line script that takes a list of keywords as an arcument and returns a CSV file list of stories containing 3 or more of them to stdout.
 
+**collocates-for-keyword.php** returns a list of collocates for a keyword by percentage as a CSV file to stdout.
+
 ## Getting started
 
 ### Requirements
