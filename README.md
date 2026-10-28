@@ -1,4 +1,4 @@
-# A Word Trend Analysis Tool For News Content
+# A Word Trend Analysis Tool For News Corpora
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B41FD5UE)
 
