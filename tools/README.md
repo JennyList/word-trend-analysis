@@ -30,7 +30,7 @@ $path_to_corpus = '/full/path/to/corpus'; // directory where the processed corpu
 
 **example:** php ./collocates-for-keyword.php foo 100
 
-**keyword** is the word searched for
+**keyword** is the word searched for.
 **count** is optional, defaults to 500 and is the  number of results you want.
 
 **returns:** the contents of a CSV file to stdout, with 2 columns: collocate, and % frequency.
